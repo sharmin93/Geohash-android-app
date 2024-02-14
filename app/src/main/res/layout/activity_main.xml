@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_lat_long"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Lat: Long:"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black">
+
+    </TextView>
+    <TextView
+        android:id="@+id/tv_center_geoHash_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Center Geohash:"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/bt_get_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="GET LOCATION"
+        android:textAlignment="center"
+        android:textColor="@color/white">
+
+    </Button>
+    <TextView
+        android:id="@+id/tv_user_geoHash_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="User Geohash:"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black">
+
+    </TextView>
+    <TextView
+        android:id="@+id/tv_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="inside"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black">
+
+    </TextView>
+</LinearLayout>
