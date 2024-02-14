@@ -233,11 +233,9 @@ public class LocationActivity extends AppCompatActivity {
     }
 
     private void getCenterGeoHasAddress() {
-
         GeoHash geohash = GeoHash.withCharacterPrecision(destinationLat, destinationLong, 8);
 //        centerGeoHashString = geohash.toBase32().substring(0, 4);
         centerGeoHashString = geohash.toBase32().toString();
-
         centerGeoHashView.setText("Center GeoHash Value:" + " " + centerGeoHashString);
 
     }
